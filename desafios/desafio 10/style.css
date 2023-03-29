@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: minhafonte;
+    src: url('fontes/idroid.otf');
+}
+
+body {
+    background-color: #84E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: 0px;
+    background-attachment: fixed;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #3BD47F, #033423e6);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    text-align: left;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav > a:hover {
+    text-decoration: overline;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    min-width: 320px;
+    max-width: 800px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+h2 {
+    background-image: linear-gradient(to right, #90e4b479, #8efabb0e);
+    font-family: minhafonte;
+    color: green;
+}
+
+h3 {
+    background-image: linear-gradient(to right, #90e4b479, #8efabb0e);
+    font-family: minhafonte;
+    color: green;
+}
+
+strong {
+    color: green;
+}
+
+.foto3 {
+    text-align: center;
+}
+
+.video {
+    background-color: rgba(7, 77, 7, 0.916);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: -10px;
+}
+
+main iframe {
+    width: 100%;
+}
+
+.final {
+    background-color: rgb(6, 99, 26);
+    color: white;
+    margin-top: 30px;
+    padding: 1px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-indent: 1em;
+}
+
+aside>ul {
+    columns: 2;
+}
+
+article>p {
+    text-indent: 2em;
+}
+
+aside>p {
+    text-indent: 2em;
+}
+
+aside {
+    background-color: rgb(56, 214, 138);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.final2 {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.separar {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+p {
+    text-indent: 2em;
+}
+
+span>a {
+    color: green;
+    text-decoration: none;
+}
+
+footer {
+    background-color: green;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+span {
+    padding-bottom: 15px;
+}
